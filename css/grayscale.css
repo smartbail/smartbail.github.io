@@ -23,7 +23,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  background: transparent url(../img/smartbail.png) no-repeat center center;
+  background: transparent url(../img/smartbail-dark.png) no-repeat center center;
   background-size: contain;
   text-indent: -999em;
   width: 200px;
@@ -54,6 +54,7 @@
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: rgba(255, 255, 255, 0.5);
+    background-image: url(../img/smartbail.png);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -90,11 +91,6 @@
     outline: none;
     border-bottom: 0.25rem solid #ec1c23;
   }
-}
-
-#mainNav.navbar-light .navbar-brand {
-  color: #161616;
-  background-image: url(../img/smartbail-dark.png);
 }
 
 .masthead {

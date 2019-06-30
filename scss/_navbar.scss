@@ -13,7 +13,7 @@
   .navbar-brand {
     color: $black;
     font-weight: 700;
-    background: transparent url(../img/smartbail.png) no-repeat center center;
+    background: transparent url(../img/smartbail-dark.png) no-repeat center center;
     background-size: contain;
     text-indent: -999em;
     width: 200px;
@@ -43,6 +43,7 @@
     .navbar-brand {
       padding: .5rem 0;
       color: fade-out($white, .5);
+      background-image: url(../img/smartbail.png);
     }
     .nav-link {
       transition: none;
@@ -78,12 +79,5 @@
         }
       }
     }
-  }
-}
-
-#mainNav.navbar-light {
-  .navbar-brand {
-    color: $black;
-    background-image: url(../img/smartbail-dark.png);
   }
 }
