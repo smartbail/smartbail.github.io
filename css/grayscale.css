@@ -32,7 +32,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: white;
   outline: none;
   background-color: transparent;
 }
@@ -60,7 +60,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -111,21 +111,15 @@
   font-family: 'Varela Round';
   font-size: 2rem;
   line-height: 1;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.25rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
-  max-width: 20rem;
+  max-width: 50rem;
   font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  .masthead h1 {
-    font-size: 3rem;
-  }
 }
 
 @media (min-width: 992px) {
@@ -134,11 +128,9 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 4rem;
-    letter-spacing: 0.8rem;
+    font-size: 3rem;
   }
   .masthead h2 {
-    max-width: 30rem;
     font-size: 1.25rem;
   }
 }
@@ -181,8 +173,46 @@
   margin-bottom: 5rem;
 }
 
+.about-us {
+  padding: 8rem 0;
+}
+
+.about-us .img-about {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+
+.benefits-section {
+  padding: 10rem 0 8rem;
+}
+
+.benefits-section .heading-dashed {
+  position: relative;
+}
+
+.benefits-section .heading-dashed:after {
+  position: relative;
+  content: " ";
+  display: block;
+  top: 0.75rem;
+  left: 0;
+  height: 2px;
+  width: 3rem;
+  background-color: #ec1c23;
+}
+
+.benefits-section img {
+  height: 150px;
+}
+
+.divider {
+  padding-top: 8rem;
+}
+
 .projects-section {
-  padding: 10rem 0;
+  padding: 10rem 0 5rem;
 }
 
 .projects-section .featured-text {
@@ -210,6 +240,29 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.projects-section img {
+  display: inline-block;
+  background-color: white;
+  padding: 1em;
+  -webkit-box-shadow: 0 20px 30px -15px rgba(0, 0, 0, 0.5), 0 40px 40px -20px rgba(0, 0, 0, 0.4), 0 70px 50px -30px rgba(0, 0, 0, 0.3), 0 40px 60px -5px rgba(203, 14, 40, 0.3);
+  box-shadow: 0 20px 30px -15px rgba(0, 0, 0, 0.5), 0 40px 40px -20px rgba(0, 0, 0, 0.4), 0 70px 50px -30px rgba(0, 0, 0, 0.3), 0 40px 60px -5px rgba(203, 14, 40, 0.3);
+  border-radius: 0.5em;
+}
+
+.partners-section {
+  padding: 3rem 0;
+}
+
+.partners-section a .img-fluid {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.partners-section a:hover .img-fluid {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .signup-section {
@@ -256,22 +309,18 @@
   width: 3rem;
 }
 
-.contact-section .social {
-  margin-top: 5rem;
-}
-
 .contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(22, 22, 22, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: #ec1c23;
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(236, 28, 35, 0.25);
 }
 
 .contact-section .social a:active {

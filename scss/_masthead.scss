@@ -13,29 +13,22 @@
     font-family: 'Varela Round';
     font-size: 2rem;
     line-height: 1;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.25rem;
     background: -webkit-linear-gradient(rgba(white, 0.6), rgba(white, 0.3));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
   h2 {
-    max-width: 20rem;
+    max-width: 50rem;
     font-size: 1rem;
-  }
-  @media(min-width: 768px) {
-    h1 {
-      font-size: 3rem;
-    }
   }
   @media(min-width: 992px) {
     height: 100vh;
     padding: 0;
     h1 {
-      font-size: 4rem;
-      letter-spacing: 0.8rem;
+      font-size: 3rem;
     }
     h2 {
-      max-width: 30rem;
       font-size: 1.25rem;
     }
   }

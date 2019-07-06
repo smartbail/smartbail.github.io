@@ -1,0 +1,25 @@
+.benefits-section {
+  padding: 10rem 0 8rem;
+
+  .heading-dashed {
+      position: relative;
+
+      &:after {
+          position: relative;
+          content: " ";
+          display: block;
+          top: 0.75rem;
+          left: 0;
+          height: 2px;
+          width: 3rem;
+          background-color: $primary;
+      }
+  }
+  img {
+      height: 150px; 
+  }
+}
+
+.divider {
+    padding-top: 8rem;
+}

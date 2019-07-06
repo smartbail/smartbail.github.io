@@ -16,17 +16,16 @@
     }
   }
   .social {
-    margin-top: 5rem;
     a {
       text-align: center;
       height: 3rem;
       width: 3rem;
-      background: fade-out($white, 0.9);
+      background: fade-out($black, 0.9);
       border-radius: 100%;
       line-height: 3rem;
-      color: fade-out($white, 0.7);
+      color: $primary;
       &:hover {
-        color: fade-out($white, 0.5);
+        color: fade-out($primary, 0.75);
       }
       &:active {
         color: $white;

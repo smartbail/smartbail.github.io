@@ -5,3 +5,14 @@
     margin-bottom: 5rem;
   }
 }
+
+.about-us {
+    padding: 8rem 0;
+
+    .img-about {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        min-height: 350px;
+    }
+}

@@ -1,0 +1,12 @@
+.partners-section {
+  padding: 3rem 0;
+
+  a {
+      .img-fluid {
+          filter: grayscale(1);
+      }
+      &:hover .img-fluid {
+          filter: grayscale(0);
+      }
+  }
+}
