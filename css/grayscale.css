@@ -217,6 +217,7 @@
 
 .benefits-section img {
   height: 150px;
+  width: auto;
 }
 
 .divider {
