@@ -13,6 +13,17 @@
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        min-height: 350px;
+        border-radius: 8rem;
+        height: 225px;
+        width: 225px;
+        margin: 0 auto;
+    }
+    .img-about-border {
+        padding: 1.5rem;
+        height: 250px;
+        width: 250px;
+        border: 1px solid rgba($primary, 0.5);
+        border-radius: 8rem;
+        margin: 0 auto;
     }
 }
