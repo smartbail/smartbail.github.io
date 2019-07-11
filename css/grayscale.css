@@ -181,11 +181,23 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 350px;
+  border-radius: 8rem;
+  height: 225px;
+  width: 225px;
+  margin: 0 auto;
+}
+
+.about-us .img-about-border {
+  padding: 1.5rem;
+  height: 250px;
+  width: 250px;
+  border: 1px solid rgba(236, 28, 35, 0.5);
+  border-radius: 8rem;
+  margin: 0 auto;
 }
 
 .benefits-section {
-  padding: 10rem 0 8rem;
+  padding: 8rem 0;
 }
 
 .benefits-section .heading-dashed {
@@ -212,7 +224,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0 5rem;
+  padding: 7rem 0 5rem;
 }
 
 .projects-section .featured-text {
