@@ -37,7 +37,7 @@ a {
   color: $primary !important;
 }
 
-footer { 
+footer {
   padding: 3rem 0;
   .row {
     align-items: center;
@@ -48,6 +48,6 @@ footer {
     flex-direction: row;
     align-items: center;
     padding-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 0; 
   }
 }
