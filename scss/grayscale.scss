@@ -9,6 +9,7 @@
 @import 'partners.scss';
 @import 'signup.scss';
 @import 'contact.scss';
+@import 'terms-privacy.scss';
 
 body {
   font-family: 'Nunito';
@@ -37,5 +38,16 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
+  .row {
+    align-items: center;
+  }
+  .footer-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
 }
