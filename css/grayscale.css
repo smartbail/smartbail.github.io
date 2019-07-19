@@ -281,10 +281,6 @@
   }
 }
 
-.projects-section .margin-top {
-  margin-top: 20rem;
-}
-
 @media (min-width: 576px) {
   .projects-section .margin-top {
     margin-top: 7rem;
