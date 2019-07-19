@@ -260,19 +260,23 @@
 }
 
 .projects-section .position-absolute {
-  position: relative !important;
+  top: 90%;
+  left: 5%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media (min-width: 576px) {
   .projects-section .position-absolute {
     position: absolute !important;
     top: 30%;
-    right: 0%;
+    left: 35%;
+    width: 100%;
   }
 }
 
 .projects-section .margin-top {
-  margin-top: 0;
+  margin-top: 20rem;
 }
 
 @media (min-width: 576px) {
@@ -398,6 +402,7 @@ a:focus, a:hover {
 
 footer {
   padding: 3rem 0;
+  text-align: center;
 }
 
 footer .row {
@@ -415,9 +420,31 @@ footer .footer-nav {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  footer .footer-nav {
+    margin-bottom: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+footer .footer-nav .col-sm-8 {
+  text-align: center !important;
+}
+
+@media (min-width: 576px) {
+  footer .footer-nav .col-sm-8 {
+    text-align: right !important;
+  }
 }

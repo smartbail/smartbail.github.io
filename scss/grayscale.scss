@@ -39,6 +39,7 @@ a {
 
 footer {
   padding: 3rem 0;
+  text-align: center;
   .row {
     align-items: center;
   }
@@ -46,8 +47,21 @@ footer {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding-left: 0;
-    margin-bottom: 0; 
+    margin-bottom: 1rem;
+
+    @media (min-width: 576px) {
+      margin-bottom: 0;
+      justify-content: space-between;
+    }
+    .col-sm-8 {
+      text-align: center!important;
+
+      @media (min-width: 576px) {
+        text-align: right!important;
+      }
+    }
   }
 }
