@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 12rem 0 2rem;
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/ai-justice.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -31,5 +31,8 @@
     h2 {
       font-size: 1.25rem;
     }
+  }
+  @media (min-width: 576px) {
+    padding: 15rem 0;
   }
 }
